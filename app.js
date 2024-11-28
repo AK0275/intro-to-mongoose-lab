@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const prompt = require('prompt-sync')()
 require('dotenv').config()
-const Customer = require('./models/Customer')
+const Customer = require('./model/Customer')
 
 
 const connect = async () => {

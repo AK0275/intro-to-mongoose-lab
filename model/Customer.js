@@ -5,6 +5,6 @@ const customerSchema = new mongoose.Schema({
     age: Number
 })
 
-const Customer = morgoose.model('Customer', customerSchema)
+const Customer = mongoose.model('Customer', customerSchema)
 
 module.exports = Customer
